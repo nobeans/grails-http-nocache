@@ -13,7 +13,8 @@ class HtmlNocacheGrailsPlugin {
     // TODO Fill in these fields
     def author = "nobeans"
     def authorEmail = "nobeans@gmail.com"
-    def title = "filter for setting no-cache to meta tag in html and http response" def description = '''\\
+    def title = "filter for setting no-cache to meta tag in html and http response"
+    def description = '''\\
 This plugin has only one Filter to set no-cache.
 It's very simple.
 '''
