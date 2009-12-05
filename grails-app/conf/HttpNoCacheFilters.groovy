@@ -1,6 +1,6 @@
 import grails.util.GrailsUtil
 
-class HtmlNoCacheFilters {
+class HttpNoCacheFilters {
 
     def filters = {
         all(controller:'*', action:'*') {

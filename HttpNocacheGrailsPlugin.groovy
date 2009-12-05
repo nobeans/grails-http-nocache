@@ -1,4 +1,4 @@
-class HtmlNocacheGrailsPlugin {
+class HttpNocacheGrailsPlugin {
     // the plugin version
     def version = "0.1"
     // the version or versions of Grails the plugin is designed for
@@ -13,14 +13,14 @@ class HtmlNocacheGrailsPlugin {
     // TODO Fill in these fields
     def author = "nobeans"
     def authorEmail = "nobeans@gmail.com"
-    def title = "filter for setting no-cache to meta tag in html and http response"
+    def title = "filter for setting no-cache to http response"
     def description = '''\\
 This plugin has only one Filter to set no-cache.
 It's very simple.
 '''
 
     // URL to the plugin's documentation
-    def documentation = "http://grails.org/HtmlNocache+Plugin"
+    def documentation = "http://grails.org/HttpNocache+Plugin"
 
     def doWithSpring = {
         // TODO Implement runtime spring config (optional)
