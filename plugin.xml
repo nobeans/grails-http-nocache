@@ -1,6 +1,6 @@
-<plugin name='http-nocache' version='0.1' grailsVersion='1.1.1 &gt; *'>
-  <author>nobeans</author>
-  <authorEmail>nobeans@gmail.com</authorEmail>
+<plugin name='http-nocache' version='0.2' grailsVersion='2.1 &gt; *'>
+  <author>Yasuharu Nakano</author>
+  <authorEmail>ynak@jggug.org</authorEmail>
   <title>filter for setting no-cache to http response</title>
   <description>\
 This plugin has only one Filter to set no-cache.

@@ -10,6 +10,7 @@ class HttpNocacheGrailsPlugin {
         "grails-app/views/error.gsp",
         "grails-app/domain/test/**",
         "grails-app/i18n/**",
+        "grails-app/conf/ApplicationResources.groovy",
         "web-app/**",
         "scripts/**",
     ]
