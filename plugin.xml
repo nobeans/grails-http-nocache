@@ -6,11 +6,21 @@
 This plugin has only one Filter to set no-cache.
 It's very simple.
 </description>
-  <documentation>http://grails.org/HttpNocache+Plugin</documentation>
+  <documentation>https://github.com/nobeans/grails-http-nocache</documentation>
+  <type>HttpNocacheGrailsPlugin</type>
   <resources>
-    <resource>DataSource</resource>
+    <resource>ApplicationResources</resource>
+    <resource>BootStrap</resource>
     <resource>HttpNoCacheFilters</resource>
-    <resource>UrlMappings</resource>
+    <resource>spring.resources</resource>
   </resources>
+  <repositories>
+    <repository name='grailsCentral' url='http://grails.org/plugins' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
   <dependencies />
+  <plugins />
+  <runtimePluginRequirements />
+  <behavior />
 </plugin>
